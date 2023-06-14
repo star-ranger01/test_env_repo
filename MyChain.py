@@ -11,4 +11,6 @@ Created on Mon Jun 12 19:12:21 2023
 from dataclasses import dataclass
 
 
+# Create the decorator
+@dataclass 
 
