@@ -10,4 +10,7 @@ contract ArcadeToken {
 
 	// The exchange rate is set at 1:100 ratio. For 1 wei = 100 ARCD tokens
 	uint public exchange_rate = 100;
+
+	// Create a "mapping" called balances: mapping(KeyType => ValueType) balances
+	mapping(address => uint) balances;
 }
