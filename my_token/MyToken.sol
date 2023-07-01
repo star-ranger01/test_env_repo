@@ -17,6 +17,7 @@ contract MyToken {
 	uint exchange_rate = 100;
 	
 	@dev:git_test Create a Solidity mapping to map the account to its balance amount.
+	mapping(address => uint) balances;
 	
 	@dev:test_env_repo Create the function to fetch an Account Balance.
 	function () public {}
