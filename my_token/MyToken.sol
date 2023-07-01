@@ -16,5 +16,8 @@ contract MyToken {
 	// Exchange rate for "fungibility" to distribute per 1 wei.
 	uint exchange_rate = 100;
 	
+	@dev:git_test Create a Solidity mapping to map the account to its balance amount.
+	
+	@dev:test_env_repo Create the function to fetch an Account Balance.
 	function () public {}
 }
